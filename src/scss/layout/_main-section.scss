@@ -1,0 +1,51 @@
+.label{
+
+  height: 100px;
+  width: 200px;
+  background: red;
+}
+.label2{
+  display:inline-block;
+
+  height: 100px;
+  width: 200px;
+  background: aquamarine;
+}
+
+.label3{
+  display:inline-block;
+  height: 100px;
+  width: 200px;
+  background: aquamarine;
+}
+
+body { margin: 0; padding: 0;
+ }
+#map {
+  height: 500px;
+  width: 500px;
+  
+ };
+
+ .search__button{
+  cursor: pointer;
+  border: 2px solid #00bcd4;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  background-color: #00bcd4;
+  outline: none;
+}
+
+.search__input{
+  height: 2rem;
+  font-size: 1.1rem;
+  outline: none;
+  height: 100%;
+  width: 40%;
+
+  color: #000;
+  font-weight: 600;
+  grid-area: input;
+  margin-left: 1em;
+}

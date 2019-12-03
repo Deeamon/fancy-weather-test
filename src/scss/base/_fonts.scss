@@ -1,0 +1,18 @@
+/* roboto-regular - latin */
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Roboto";
+
+  src: local("Roboto"), local("Roboto-Regular"),
+  url("../assets/fonts/roboto-v20-latin-regular.woff2") format("woff2");
+}
+/* roboto-500 - latin */
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Roboto";
+
+  src: local("Roboto Medium"), local("Roboto-Medium"),
+  url("../assets/fonts/roboto-v20-latin-500.woff2") format("woff2");
+}

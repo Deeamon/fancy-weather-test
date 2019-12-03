@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CodeJam Fancy Weather</title>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+  <div id='map'></div>
+  <script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZGVlYW1vbiIsImEiOiJjazNteTVpcG4wNjZkM2ZxZW05aXNhYTA5In0.x_QWpmhsh03TYBHAOZVK4Q';
+  var map = new mapboxgl.Map({
+  container: 'map', // container id
+  style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+  center: [27.5667, 53.9000], // starting position [lng, lat]
+  zoom: 9 // starting zoom
+  });
+  </script>
+</body>
+
+</html>

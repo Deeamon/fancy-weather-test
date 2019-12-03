@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "extends": "airbnb-base",
+  "rules": {
+    "no-console": "off",
+    "guard-for-in": 0,
+    "no-restricted-syntax": 0,
+    "import/prefer-default-export": "off",
+    "no-underscore-dangle": 0,
+    "max-classes-per-file": 0,
+    },
+}
